@@ -1,7 +1,7 @@
-##Multi-Level Cache Simulator
+#Multi-Level Cache Simulator
 A multi-level cache simulator with a predefined architecture.
 
-#Introdução:
+##Introdução:
 O simulador de memória cache a seguir é projetado de acordo com uma arquitetura definida,
 com uma cache multinível de duas Directed Mapped para instrução e para dados em primeiro nível
 e uma Fully associative em segundo nível, em paralelo está mais três Set Associative de duas,
@@ -20,7 +20,7 @@ A seguir será mostrado os módulos de janelas de que o simulador é composto, e
 uma faz, assim como um exemplo de simulação.
 A imagem a seguir mostra a janela principal do simulador. Existem 3 menus: Cache
 Settings, Console, Simulation.
-#Cache Settings
+##Cache Settings
 Permite que o usuário defina o tamanho da cache, a linha de cache, o
 tamanho da janela (em clocks) para o algoritmo de substituição LRU,
 checkboxes que definem quais caches vão usar o LRU durante a
@@ -28,7 +28,7 @@ simulação, e na parte de endereços o usuário terá a opção de gerar
 endereços para uma simulação, ou simular através de um arquivo txt.
 Depois de definidas esses parâmetros é possível fazer uma
 simulação.
-#Console
+##Console
 O console permite a visualização de cada passo que ocorre na simulação, nele serão
 mostrados as mensagens de erro, ocorrências de cada cache a cada informação de hit e miss em
 detalhe.
@@ -38,7 +38,7 @@ fazer com que demore mais do que seria com console fechado para o resultado ser 
 ao fato de a engine gráfica usada consumir um tempo para a inserção do evento no histórico e
 imprimir o texto no console, por isso é recomendado o fechamento do console a partir de
 simulações que usem mais de 1000 endereços.
-#Simulation
+##Simulation
 A janela de simulação mostra as
 informações gerais da simulação e controla a
 mesma. Existem três botões de navegação da
@@ -52,7 +52,7 @@ as views de cada memória cache da arquitetura. A
 view é uma tabela que ilustra os bits de controle e
 o endereço que está armazenado em qual linha e
 ou via
-#Exemplo de simulação
+##Exemplo de simulação
 A seguir será mostrado o resultado de uma simulaçao proposta pelo autor.
 O tamanho de cache será de 16KB, linha de cache de 32b, janela de atualização de
 64 ciclos, todos os algoritmos de LRU aplicado a caches que suportam. Serão
