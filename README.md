@@ -61,5 +61,5 @@ ou via
 
 ## Contato
 
-Para falar com o craidor da biblioteca, por favor, mande um E-mail para [Aramis Hornung Moraes](https://plus.google.com/u/0/103791949210339737668/)
+Para falar com o craidor do projeto, por favor, mande uma mensagem para [Aramis Hornung Moraes](https://plus.google.com/u/0/103791949210339737668/)
 ![Image](https://lh3.googleusercontent.com/-gJpG_OGpwAI/AAAAAAAAAAI/AAAAAAAACw4/a0uVi1JqHtQ/s120-c/photo.jpg)
